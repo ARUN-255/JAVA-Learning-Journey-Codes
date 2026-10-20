@@ -17,7 +17,10 @@ public class MethodOverLoadingDemo {
     public static void main(String []args){
         Calculator6 obj  = new Calculator6();
         double r1 = obj.add(2,233);
+        double r2 = obj.add(2,233,34);
+        double r3 = obj.add(2,233,34,45);
         System.out.println(r1);
-
+        System.out.println(r2);
+        System.out.println(r3);
     }
 }
